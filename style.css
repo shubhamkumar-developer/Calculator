@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+    body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 1px;
+    border: 4px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.row{
+    margin: 2px 0;
+}
+.row input{
+    margin: 0;
+    padding: 38px 56px;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
